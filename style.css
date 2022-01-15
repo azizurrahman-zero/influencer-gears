@@ -1,0 +1,136 @@
+/* Utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+main{
+    margin: 100px 0;
+}
+section{
+    margin-bottom: 100px;
+}
+.container{
+    margin: 0 5%
+}
+header,
+.header-section{
+    color: #3A3A3A;
+}
+a{
+    text-decoration: none;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+
+
+/* Header Style Start */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+header .logo-text{
+    margin: 0;
+}
+nav{
+    display: flex;
+    column-gap: 34px;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+/* Header Section Style */
+.header-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text h1{
+    font-size: 52px;
+}
+.header-text p{
+    font-weight: 600;
+    padding: 0 210px 16px 0;
+}
+.header-text a{
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #E02C6D;
+    border-radius: 40px;
+    padding: 10px 25px;
+}
+.header-img{
+    background-image: url(images/circle-design.svg);
+    background-repeat: no-repeat;
+}
+.header-img img{
+    width: 475px;
+    height: 475px;
+}
+
+/* Product Section Style */
+.product-section .section-heading{
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+    padding: 0 10%;
+}
+.product{
+    padding: 17px 15px;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+}
+.product .product-img img{
+    width: 100%;
+}
+.product .product-name{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin: 16px 0 6px;
+}
+.product-prize{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+}
+.product-rating{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 10px 0 5px;
+}
+.product-rating .star{
+    font-size: 10px;
+    color: #FB8200;
+}
+.product-rating .in-number{
+    font-family: 'Roboto', sans-serif;
+    color: #5E6366;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+}
+.product-details{
+    margin: 0;
+}
+.product-link{
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+}
