@@ -13,7 +13,8 @@ section{
     margin: 0 5%
 }
 header,
-.header-section{
+.header-section,
+.counter-section{
     color: #3A3A3A;
 }
 .logo-text{
@@ -139,6 +140,36 @@ nav a{
     margin-top: 50px;
 }
 
+/* Counter Section Style */
+.counters{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    border-radius: 20px;
+    width: 170px
+}
+.counter:hover{
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+}
+.counter-icon .fas{
+    font-size: 100px;
+}
+.counter-text{
+    text-align: center;
+}
+.counter-text .number{
+    margin: 20px 0 0;
+}
+.counter-text .details{
+    margin: 0;
+}
+
 /* Footer Style */
 footer{
     background-color: #0A0826;
@@ -162,3 +193,10 @@ footer .copyright{
     border-radius: 18px;
     margin: 18px 8px 0;
 }
+
+
+/*------------------*\
+    Media Queries   
+\*------------------*/
+
+/* Mobile Devices */
