@@ -87,6 +87,9 @@ nav a{
 }
 
 /* Logo Section Style */
+.logo-box{
+    margin-bottom: 100px;
+}
 .logos{
     display: flex;
     width: 70%;
@@ -280,6 +283,9 @@ footer .copyright{
     }
 
     /* Logo Section Style */
+    .logo-box{
+        margin-bottom: 50px;
+    }
     .logos{
         flex-wrap: wrap;
         justify-content: center;
