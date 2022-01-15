@@ -86,6 +86,18 @@ nav a{
     transform: scale(1.2);
 }
 
+/* Logo Section Style */
+.logos{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 30px 60px;
+    border-style: solid none;
+    border-width: 0.1px;
+    border-color: hsla(212, 26%, 80%, 0.3);
+}
+
 /* Product Section Style */
 .product-section .section-heading{
     color: #3A3A3A;
@@ -267,6 +279,15 @@ footer .copyright{
         font-size: 16px;
     }
 
+    /* Logo Section Style */
+    .logos{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        border: none;
+        width: unset;
+    }
+
     /* Product Section Style */
     .product-section .section-heading{
         font-size: 16px;
@@ -355,5 +376,8 @@ footer .copyright{
     .counters{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .counter{
+        width: unset;
     }
 }
