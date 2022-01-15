@@ -159,10 +159,11 @@ nav a{
 }
 .product-link{
     font-weight: 700;
-    color: rgba(224, 44, 109, 0.87);
-    display: block;
     text-align: right;
     margin-top: 50px;
+}
+.product-link a{
+    color: rgba(224, 44, 109, 0.87);
 }
 
 /* Counter Section Style */
