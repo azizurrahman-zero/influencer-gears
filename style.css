@@ -41,7 +41,7 @@ header{
 .mobile-icon a{
     color: #1B1B1B;
 }
-nav{
+nav ul{
     display: flex;
     column-gap: 34px;
 }
@@ -345,7 +345,7 @@ footer .copyright{
     header{
         margin: 40px 0;
     }
-    nav{
+    nav ul{
         column-gap: 18px;
     }
 
