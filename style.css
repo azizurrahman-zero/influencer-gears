@@ -16,6 +16,9 @@ header,
 .header-section{
     color: #3A3A3A;
 }
+.logo-text{
+    margin: 0;
+}
 a{
     text-decoration: none;
 }
@@ -30,9 +33,6 @@ header{
     align-items: center;
     justify-content: space-around;
     margin: 60px 0;
-}
-header .logo-text{
-    margin: 0;
 }
 nav{
     display: flex;
@@ -82,12 +82,13 @@ nav a{
     font-size: 28px;
     text-align: center;
 }
+.products-container{
+    padding: 0 10%;
+}
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
-    margin-top: 30px;
-    padding: 0 10%;
 }
 .product{
     padding: 17px 15px;
@@ -133,4 +134,31 @@ nav a{
 .product-link{
     font-weight: 700;
     color: rgba(224, 44, 109, 0.87);
+    display: block;
+    text-align: right;
+    margin-top: 50px;
+}
+
+/* Footer Style */
+footer{
+    background-color: #0A0826;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+footer .copyright{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    color: #D9DBE1;
+    margin: 3px 0;
+}
+.social-icon .fab{
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 18px;
+    margin: 18px 8px 0;
 }
